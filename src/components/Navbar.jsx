@@ -28,44 +28,52 @@ const Navbar = () => {
   }
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-primary-800/80 py-4'}`}>
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center" onClick={closeMenu}>
-          <span className="text-2xl font-bold text-primary-600 font-display">Pool Supplies & Service</span>
+          <span className={`text-2xl font-bold font-display ${isScrolled ? 'text-primary-600' : 'text-white'}`}>Pool Supplies & Service</span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
           <nav className="flex items-center space-x-6">
             <NavLink to="/" className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium" : "text-gray-700 hover:text-primary-600 transition-colors"
+              isActive 
+                ? `font-medium ${isScrolled ? 'text-primary-700' : 'text-white bg-primary-600/70 px-3 py-1 rounded'}` 
+                : `${isScrolled ? 'text-gray-700 hover:text-primary-700' : 'text-white hover:bg-primary-600/50 px-3 py-1 rounded'} transition-colors`
             }>
               Home
             </NavLink>
             <NavLink to="/services" className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium" : "text-gray-700 hover:text-primary-600 transition-colors"
+              isActive 
+                ? `font-medium ${isScrolled ? 'text-primary-700' : 'text-white bg-primary-600/70 px-3 py-1 rounded'}` 
+                : `${isScrolled ? 'text-gray-700 hover:text-primary-700' : 'text-white hover:bg-primary-600/50 px-3 py-1 rounded'} transition-colors`
             }>
               Services
             </NavLink>
             <NavLink to="/about" className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium" : "text-gray-700 hover:text-primary-600 transition-colors"
+              isActive 
+                ? `font-medium ${isScrolled ? 'text-primary-700' : 'text-white bg-primary-600/70 px-3 py-1 rounded'}` 
+                : `${isScrolled ? 'text-gray-700 hover:text-primary-700' : 'text-white hover:bg-primary-600/50 px-3 py-1 rounded'} transition-colors`
             }>
               About
             </NavLink>
             <NavLink to="/contact" className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium" : "text-gray-700 hover:text-primary-600 transition-colors"
+              isActive 
+                ? `font-medium ${isScrolled ? 'text-primary-700' : 'text-white bg-primary-600/70 px-3 py-1 rounded'}` 
+                : `${isScrolled ? 'text-gray-700 hover:text-primary-700' : 'text-white hover:bg-primary-600/50 px-3 py-1 rounded'} transition-colors`
             }>
               Contact
             </NavLink>
           </nav>
           
-          <a href="tel:3347447772" className="flex items-center text-primary-600 font-medium">
+          <a href="tel:3347447772" className={`flex items-center font-medium ${isScrolled ? 'text-primary-600' : 'text-white bg-primary-600 px-4 py-2 rounded-md'}`}>
             <FaPhone className="mr-2" />
             (334) 744-7772
           </a>
         </div>
 
         <button 
-          className="md:hidden text-gray-700 focus:outline-none" 
+          className={`md:hidden focus:outline-none ${isScrolled ? 'text-gray-700' : 'text-white'}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
@@ -79,7 +87,7 @@ const Navbar = () => {
           <NavLink 
             to="/" 
             className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium px-4 py-2" : "text-gray-700 hover:text-primary-600 px-4 py-2 transition-colors"
+              isActive ? "text-white bg-primary-600 font-medium px-4 py-2 rounded" : "text-gray-700 hover:bg-primary-50 hover:text-primary-700 px-4 py-2 rounded transition-colors"
             }
             onClick={closeMenu}
           >
@@ -88,7 +96,7 @@ const Navbar = () => {
           <NavLink 
             to="/services" 
             className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium px-4 py-2" : "text-gray-700 hover:text-primary-600 px-4 py-2 transition-colors"
+              isActive ? "text-white bg-primary-600 font-medium px-4 py-2 rounded" : "text-gray-700 hover:bg-primary-50 hover:text-primary-700 px-4 py-2 rounded transition-colors"
             }
             onClick={closeMenu}
           >
@@ -97,7 +105,7 @@ const Navbar = () => {
           <NavLink 
             to="/about" 
             className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium px-4 py-2" : "text-gray-700 hover:text-primary-600 px-4 py-2 transition-colors"
+              isActive ? "text-white bg-primary-600 font-medium px-4 py-2 rounded" : "text-gray-700 hover:bg-primary-50 hover:text-primary-700 px-4 py-2 rounded transition-colors"
             }
             onClick={closeMenu}
           >
@@ -106,7 +114,7 @@ const Navbar = () => {
           <NavLink 
             to="/contact" 
             className={({ isActive }) => 
-              isActive ? "text-primary-600 font-medium px-4 py-2" : "text-gray-700 hover:text-primary-600 px-4 py-2 transition-colors"
+              isActive ? "text-white bg-primary-600 font-medium px-4 py-2 rounded" : "text-gray-700 hover:bg-primary-50 hover:text-primary-700 px-4 py-2 rounded transition-colors"
             }
             onClick={closeMenu}
           >
@@ -114,7 +122,7 @@ const Navbar = () => {
           </NavLink>
           <a 
             href="tel:3347447772" 
-            className="flex items-center text-primary-600 font-medium px-4 py-2"
+            className="flex items-center text-white bg-primary-600 font-medium px-4 py-2 rounded"
             onClick={closeMenu}
           >
             <FaPhone className="mr-2" />
