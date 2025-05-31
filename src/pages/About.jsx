@@ -52,8 +52,8 @@ const About = () => {
               transition={{ duration: 0.5 }}
             >
               <img 
-                src="https://images.pexels.com/photos/1134062/pexels-photo-1134062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Beautiful swimming pool" 
+                src="https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="Beautiful backyard swimming pool with clear blue water" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </motion.div>
@@ -72,8 +72,8 @@ const About = () => {
               className="order-2 lg:order-1"
             >
               <img 
-                src="https://images.pexels.com/photos/1415734/pexels-photo-1415734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Pool maintenance professional" 
+                src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="Professional pool maintenance" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </motion.div>

@@ -60,7 +60,7 @@ const WhyChooseUs = () => {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us</h2>
           <p className="text-gray-600 text-lg">
-            Pool Supplies and Service has been the trusted choice for pool maintenance in the Lagrange and Valley area since 2009. Here's why our customers choose us:
+            Pool Supplies and Service has been the trusted choice for pool maintenance in the Lagrange, GA, Valley, AL and surrounding areas since 2009. Here's why our customers choose us:
           </p>
         </div>
         

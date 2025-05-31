@@ -76,7 +76,7 @@ const Home = () => {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Professional Pool Service Since 2009</h2>
               <p className="text-gray-600 text-lg mb-6">
-                Pool Supplies and Service has been providing expert pool maintenance and repair services to Lagrange and Valley areas for over a decade.
+                Pool Supplies and Service has been providing expert pool maintenance and repair services to Lagrange, GA, Valley, AL and surrounding areas for over a decade.
               </p>
               <p className="text-gray-600 mb-6">
                 Owner Daryl Waites personally handles all service calls, ensuring the highest quality of work and customer satisfaction. With years of experience and a dedication to excellence, Daryl has built a reputation for reliable, professional service.
