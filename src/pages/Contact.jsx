@@ -1,23 +1,17 @@
-import { motion } from 'framer-motion'
-import { FaPhone, FaEnvelope, FaClock } from 'react-icons/fa'
-import ContactForm from '../components/ContactForm'
+import { FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   return (
     <>
       <section className="pt-32 pb-16 bg-primary-600 text-white">
         <div className="container">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-center max-w-3xl mx-auto"
-          >
+          <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 font-display">Contact Us</h1>
             <p className="text-lg text-primary-100">
               Have questions or ready to schedule service? Get in touch with us today.
             </p>
-          </motion.div>
+          </div>
         </div>
       </section>
       
@@ -25,11 +19,7 @@ const Contact = () => {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
+              <div>
                 <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
                 <p className="text-gray-600 mb-8">
                   Whether you need regular pool maintenance, equipment repair, or just have questions about our services, we're here to help. Contact us using the form or the information below.
@@ -82,7 +72,7 @@ const Contact = () => {
                     For locations outside our primary service area, please contact us to discuss availability.
                   </p>
                 </div>
-              </motion.div>
+              </div>
             </div>
             
             <div>
@@ -95,27 +85,16 @@ const Contact = () => {
       <section className="py-16 bg-gray-50">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-12">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
+            <div>
               <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
               <p className="text-gray-600 text-lg">
                 Find answers to common questions about our pool services.
               </p>
-            </motion.div>
+            </div>
           </div>
           
           <div className="max-w-3xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="space-y-6"
-            >
+            <div className="space-y-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-2">How often should I have my pool serviced?</h3>
                 <p className="text-gray-600">
@@ -150,12 +129,12 @@ const Contact = () => {
                   Yes, we understand that pool issues don't always happen during business hours. Contact us for emergency service availability.
                 </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

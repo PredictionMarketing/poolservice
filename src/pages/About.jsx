@@ -72,8 +72,8 @@ const About = () => {
               className="order-2 lg:order-1"
             >
               <img 
-                src="https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                alt="Professional pool maintenance" 
+                src="https://hunamarketing.s3.us-east-1.amazonaws.com/swimming+pool+baby+pool+supplies+and+service+lanett+al.jpg" 
+                alt="Pool Supplies and Service - Daryl Waites" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </motion.div>
