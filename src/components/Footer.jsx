@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary-300">Pool Supplies & Service</h3>
             <p className="mb-4 text-gray-400">
-              Professional swimming pool maintenance, repair, and supplies in Auburn, AL. 
+              Professional swimming pool maintenance, repair, and supplies in Lanett, AL. 
               Serving the community since 2009.
             </p>
             <div className="flex space-x-4">
@@ -66,7 +66,7 @@ const Footer = () => {
                 <FaMapMarkerAlt className="mt-1 mr-3 text-primary-300" />
                 <div>
                   <p className="text-gray-400">Location</p>
-                  <p>Auburn, AL</p>
+                  <p>Lanett, AL</p>
                 </div>
               </li>
             </ul>

@@ -32,7 +32,7 @@ const About = () => {
             >
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Pool Supplies and Service was established in 2009 by Daryl Waites with a simple mission: to provide reliable, high-quality pool maintenance services to the Auburn community.
+                Pool Supplies and Service was established in 2009 by Daryl Waites with a simple mission: to provide reliable, high-quality pool maintenance services to the Lagrange, GA, Valley, AL and surrounding areas.
               </p>
               <p className="text-gray-600 mb-4">
                 With a background in pool maintenance and a passion for customer service, Daryl built the business from the ground up, focusing on personalized attention and consistent results.
@@ -41,7 +41,7 @@ const About = () => {
                 Over the years, Pool Supplies and Service has grown through word-of-mouth referrals from satisfied customers who appreciate the attention to detail and professional service that Daryl provides.
               </p>
               <p className="text-gray-600">
-                Today, we continue to serve the Auburn area with the same dedication to quality and customer satisfaction that has been our hallmark since day one.
+                Today, we continue to serve the Lagrange, GA, Valley, AL and surrounding areas with the same dedication to quality and customer satisfaction that has been our hallmark since day one.
               </p>
             </motion.div>
             

@@ -76,7 +76,7 @@ const Contact = () => {
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-lg font-semibold mb-2">Service Area</h3>
                   <p className="text-gray-600 mb-2">
-                    We provide pool services throughout Auburn and surrounding areas including Opelika.
+                    We provide pool services throughout Lagrange, GA, Valley, AL and surrounding areas.
                   </p>
                   <p className="text-gray-600">
                     For locations outside our primary service area, please contact us to discuss availability.
@@ -140,7 +140,7 @@ const Contact = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold mb-2">When should I open and close my pool?</h3>
                 <p className="text-gray-600">
-                  In the Auburn area, most pools are opened in late March or early April and closed in late September or October, depending on the weather. We recommend scheduling these services in advance as these are busy times.
+                  In the Lagrange and Valley area, most pools are opened in late March or early April and closed in late September or October, depending on the weather. We recommend scheduling these services in advance as these are busy times.
                 </p>
               </div>
               

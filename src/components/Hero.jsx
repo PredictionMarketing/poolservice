@@ -16,7 +16,7 @@ const Hero = () => {
             </h1>
             <p className="text-lg md:text-xl mb-8 text-primary-100 max-w-xl">
               Keeping your pool crystal clear and perfectly maintained since 2009. 
-              Serving Auburn and surrounding areas with expert pool care.
+              Serving Lagrange, GA, Valley, AL and surrounding areas with expert pool care.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact" className="btn bg-white text-primary-700 hover:bg-primary-50">

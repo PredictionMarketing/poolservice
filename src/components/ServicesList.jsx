@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaSwimmingPool, FaTools, FaWater, FaLeaf, FaThermometerHalf, FaWrench } from 'react-icons/fa'
+import { FaSwimmingPool, FaTools, FaWater, FaLeaf, FaThermometerHalf, FaWrench, FaTape, FaListUl } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const services = [
@@ -29,8 +29,8 @@ const services = [
   },
   {
     id: 5,
-    title: 'Heater Installation & Repair',
-    description: 'Installation, maintenance, and repair of pool heating systems to extend your swimming season.',
+    title: 'Equipment Installation',
+    description: 'Installation of pumps, filters, heaters, salt cells, and other pool equipment to enhance your pool system performance and efficiency.',
     icon: <FaThermometerHalf size={36} className="text-primary-500" />,
   },
   {
@@ -38,6 +38,18 @@ const services = [
     title: 'Equipment Upgrades',
     description: 'Upgrade to energy-efficient, modern pool equipment to save on operating costs and improve performance.',
     icon: <FaWrench size={36} className="text-primary-500" />,
+  },
+  {
+    id: 7,
+    title: 'Liner Installation and Leak Repair',
+    description: 'Professional installation of new pool liners and expert leak detection and repair services to keep your pool watertight and looking great.',
+    icon: <FaTape size={36} className="text-primary-500" />,
+  },
+  {
+    id: 8,
+    title: 'Other Services',
+    description: 'Additional pool services including sand changes, filter cleaning, safety cover installation, and more. Contact us for any specialized pool service needs.',
+    icon: <FaListUl size={36} className="text-primary-500" />,
   },
 ]
 
