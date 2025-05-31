@@ -125,43 +125,20 @@ const Services = () => {
             >
               <h2 className="text-3xl font-bold mb-4">Service Areas</h2>
               <p className="text-gray-600 text-lg">
-                We provide pool services throughout Auburn and surrounding areas.
+                We provide pool services throughout Lagrange, GA, Valley, AL and surrounding areas.
               </p>
             </motion.div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+          <div className="text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="bg-gray-50 p-6 rounded-lg"
+              transition={{ duration: 0.5 }}
+              className="bg-gray-50 p-8 rounded-lg inline-block mx-auto"
             >
-              <h3 className="text-xl font-bold mb-2">Auburn</h3>
-              <p className="text-gray-600">Primary service area</p>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-gray-50 p-6 rounded-lg"
-            >
-              <h3 className="text-xl font-bold mb-2">Opelika</h3>
-              <p className="text-gray-600">Regular service area</p>
-            </motion.div>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="bg-gray-50 p-6 rounded-lg"
-            >
-              <h3 className="text-xl font-bold mb-2">Surrounding Areas</h3>
-              <p className="text-gray-600">By appointment</p>
+              <h3 className="text-2xl font-bold mb-3">Lagrange, GA, Valley, AL and Surrounding Areas</h3>
             </motion.div>
           </div>
         </div>
